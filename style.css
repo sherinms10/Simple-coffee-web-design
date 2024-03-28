@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #003d38;
+    height: 120vh;
+    /* color: #003d38; */
+    font-family: Arial, sans-serif;
+    
+    
+}
+#abc{
+    background-color: #c2cbc8;
+    color: #003d38;
+    height: 100vh;
+    width: 85%;
+    margin-left: 7%; 
+    margin-top: 10%; 
+}
+#header{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #c2cbc8;
+    color: #003d38;
+    z-index: 99;
+    background: transparent;
+}
+#header h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cofee{
+    font-size: 7px;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 33%;
+    left: 15%;
+}
+#navbar{
+    display: flex;
+   
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #003d38;
+    /* transition: 0.3s ease; */
+}
+.container{
+    margin-top: 2%;
+    margin-left: 7%;
+    display: inline-block;
+    background-color: #c2cbc8;
+    color: #003d38;
+}
+.container h1{
+    font-size: 75px;
+}
+.container p{
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    margin-top: -10%;
+}
+button{
+    margin-top: 7%;
+    border-radius: 20px;
+    width: 30%;
+    font-family: Arial, sans-serif;
+    padding: 5px 5px 5px 5px; 
+    background-color: #003d38;
+    color: white;
+}
+.quoate img{
+    height: 20vh;
+    margin: 2% 0 0 8%;
+    background-color: #c2cbc8;
+    transform: rotate(-30deg);
+}
+.packet img{
+    height: 70vh;
+    /* box-shadow: 5px 10px #888888;  */
+    z-index: 13;
+    position: absolute;
+    top: 37%;
+    left: 52%;
+}
+.bg{
+    background-image: url("img/19a59539efc4fe5dabbf6c83ad046007.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100.2vh;
+    width: 30%;
+    z-index: 12; 
+    position: absolute;
+    top: 21.7%;
+    left: 62%;
+}
+.media{
+    z-index: 13;
+    position: absolute;
+    top: 115%;
+    left: 78%;
+}
+.media span{
+    color: #c2cbc8;
+}
+.media a{
+    text-decoration: none;
+    color: white;
+}
+.vertical h4{
+    writing-mode: vertical-rl;
+    color: #c2cbc8;
+    font-size: 10px;
+    z-index: 13;
+    position: absolute;
+    bottom: -20%;
+    left: 61%;
+}
+#menu-bar{
+    display: flex;
+    border: 1px solid black;
+    border: none;
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 537px;
+    top: 180px;
+    z-index: 100;
+ 
+}
+.fa-magnifying-glass{
+    font-size: 24px;
+    color: #c2cbc8;
+    position: absolute;
+    top: 30%;
+    left: 110%;
+}
+.mouse{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 115%;
+    left: 40%;
+}
